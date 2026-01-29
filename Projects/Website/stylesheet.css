@@ -1,0 +1,46 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, New Time;
+  margin: 0;
+}
+
+.firstpara {
+  background-color: purple;
+  color: blue;
+  width: 350px;
+  float: left;
+  //margin-left: auto;
+  //margin-right: auto;
+  //padding-right: 65px;
+}
+
+.secondspara {
+  background-color: red;
+  color: yellow;
+  //width: 350px;
+  //float: right;
+  // margin-left: auto;
+  //margin-right: auto;
+  //padding-right: 65px;
+}
+
+.container {
+  background-color: lightpink;
+  width: 350px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.title {
+  background-color: yellow;
+  color: blue;
+}

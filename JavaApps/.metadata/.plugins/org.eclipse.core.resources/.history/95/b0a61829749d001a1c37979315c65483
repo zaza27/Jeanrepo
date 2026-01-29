@@ -1,0 +1,33 @@
+package myProj;
+
+public class java101 {
+
+	public static void main(String[] args) {
+
+		double principal;
+		double rate;
+		double interest;
+		double x;
+
+		principal = 17000;
+		rate = 0.07;
+		interest = rate * principal;
+		x = principal + interest;
+
+		//principal = principal + interest;
+
+		System.out.print("The interest earned is $");
+		System.out.println(interest);
+		System.out.print("The value of the investment after one year is $");
+		System.out.println(x);
+
+		/*
+		 * double rate; rate = 0.07;
+		 * 
+		 * double principal; principal = 17000;
+		 * 
+		 * double interest; interest = rate * principal;
+		 */
+	}
+
+}

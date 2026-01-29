@@ -1,0 +1,30 @@
+<customers>
+	<customer id="1">
+		<FirstName>Jason</FirstName>
+		<LastName>Smith</LastName>
+		<DOB>03/16/1975</DOB>
+		<SS>012-345-6789</SS>
+	<Address>
+		<Street>12 Francklyn Street</Street>
+		<City>Richardson</City>
+		<State>TX</State>
+		<Zip>75076</Zip>
+		<County>Collin</County>
+		<Country>USA</Country>
+	</Address>
+	</customer>
+	<customer id="2">
+		<FirstName>Vivek</FirstName>
+		<LastName>Juan</LastName>
+		<DOB>04/26/1981</DOB>
+		<SS>098-76-5432</SS>
+	<Address>
+		<Street>237 Custer Road</Street>
+		<City>Allen</City>
+		<State>TX</State>
+		<Zip>75013</Zip>
+		<County>Collin</County>
+		<Country>USA</Country>
+	</Address>
+	</customer>
+</customers>

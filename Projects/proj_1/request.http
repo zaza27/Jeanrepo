@@ -1,0 +1,14 @@
+GET https://jsonplaceholder.typicode.com/posts
+
+
+###
+
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+    "firstname": "Jason",
+    "lastname": "Smith",
+    "age": 34,
+    "date": "today"
+}

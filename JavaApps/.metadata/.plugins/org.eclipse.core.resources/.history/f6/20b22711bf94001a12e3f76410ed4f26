@@ -1,0 +1,69 @@
+package xml_parser;
+
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "jaxbdemo")
+public class jaxbdemo {
+
+	private int id, salary;
+	private String companyname, employeename, address;
+
+	@XmlAttribute
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	@XmlAttribute
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+
+	@XmlElement
+	public String getCompanyname() {
+		return companyname;
+	}
+
+	public void setCompanyname(String companyname) {
+		this.companyname = companyname;
+	}
+
+	@XmlElement
+	public String getEmployeename() {
+		return employeename;
+	}
+
+	public void setEmployeename(String employeename) {
+		this.employeename = employeename;
+	}
+
+	@XmlElement
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public jaxbdemo(int id, int salary, String companyname, String employeename, String address) {
+		super();
+		this.id = id;
+		this.salary = salary;
+		this.companyname = companyname;
+		this.employeename = employeename;
+		this.address = address;
+	}
+
+	public jaxbdemo() {
+		super();
+	}
+
+}
